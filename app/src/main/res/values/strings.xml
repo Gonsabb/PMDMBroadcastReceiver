@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PMDMBroadcastReceiver</string>
+    <string name="tvinfo1">Detalles de las llamadas recibidas</string>
+    <string name="llamadas">Llamadas</string>
+    <string name="tvinfo2">Ver las llamadas entrantes</string>
+    <string name="entrantes">Ver entrantes</string>
+    <string name="tvinfo3">Ver las llamadas salientes</string>
+    <string name="salientes">Ver salientes</string>
+    <string name="tvinfo4">Ver llamadas entrantes y salientes</string>
+    <string name="todo">Ver todo</string>
+    <string name="nombre">Nombre</string>
+    <string name="dia">dia / fecha</string>
+    <string name="num">Numero</string>
+    <string name="lent">LLamadas entrantes</string>
+    <string name="versalie">Detalles de las llamadas salientes</string>
+    <string name="lsali">Llamadas salientes</string>
+</resources>

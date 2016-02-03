@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondo"
+    tools:context=".Principal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/tvinfo1"
+        android:id="@+id/tvinfo1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="#0b0b0b" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lent"
+        android:id="@+id/btLlamadas"
+        android:layout_below="@+id/tvinfo1"
+        android:layout_centerHorizontal="true"
+        android:onClick="aLlamadas" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/tvinfo2"
+        android:id="@+id/tvinfo2"
+        android:textColor="#0b0b0b"
+        android:layout_below="@+id/btLlamadasSalientes"
+        android:layout_alignRight="@+id/tvinfo3"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/entrantes"
+        android:id="@+id/btEntrantes"
+        android:layout_below="@+id/tvinfo2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/tvinfo3"
+        android:id="@+id/tvinfo3"
+        android:layout_below="@+id/btEntrantes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#0b0b0b" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salientes"
+        android:id="@+id/btSalientes"
+        android:layout_below="@+id/tvinfo3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/versalie"
+        android:id="@+id/tvinfo4"
+        android:textColor="#0b0b0b"
+        android:layout_below="@+id/btLlamadas"
+        android:layout_alignLeft="@+id/tvinfo1"
+        android:layout_alignStart="@+id/tvinfo1"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lsali"
+        android:id="@+id/btLlamadasSalientes"
+        android:layout_below="@+id/tvinfo4"
+        android:layout_centerHorizontal="true"
+        android:onClick="aLlamadasSalientes" />
+</RelativeLayout>
